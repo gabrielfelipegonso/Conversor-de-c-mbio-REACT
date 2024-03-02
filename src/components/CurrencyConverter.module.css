@@ -11,6 +11,7 @@
     opacity: 0.96;
      box-shadow: 0 0 6px 1px #000003, 8px 8px 12px 2px #000003;
   transition: box-shadow 0.3s;
+  height: fit-content;
 }
 .titulo1{
     color: #343a40;
@@ -36,7 +37,9 @@
 }
 .resultContainer{
     width: 90%;
-    height: 4vw;
+    min-height: 4vw;
+    padding: 10px;
+    height: fit-content;
     color: aliceblue;
     display: flex;
     text-align: center;
@@ -45,6 +48,10 @@
     background-color: rgb(2, 126, 74);
     border-radius: 20px;
     box-shadow: inset 0 0 2px 1px #81ff75;
+}
+.paragrafo{
+   width: 100%; 
+  word-wrap: break-word;
 }
 @media screen and (max-width:400px){
     .converter{
