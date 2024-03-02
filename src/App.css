@@ -7,5 +7,5 @@
 body{
   display: flex;
   justify-content: center;
-  background-image: url('./bg-img-body.webp');
+  background-image: url('./public/bg-img-body.jpg');
 }
